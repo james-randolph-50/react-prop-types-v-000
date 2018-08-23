@@ -4,6 +4,6 @@ Order.propTypes = {
   scoops: PropTypes.arrayOf(PropTypes.string).isRequired,
   orderInfo: PropTypes.shape({
     customerName: PropTypes.string.isRequired,
-    orderedAt: PropTypes.number.isRequired // We're using UNIX timestamps here
+    orderedAt: PropTypes.number.isRequired
   }).isRequired
 };
